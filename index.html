@@ -1,23 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>சுனில் ராஜா மகாலிங்கம்</title>
+<title>Sunil Weds Genica</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 300px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
 </head>
 <body>
-<svg height="130" width="700">
-  <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%"
-      style="stop-color:purple;stop-opacity:1" />
-      <stop offset="100%"
-      style="stop-color:green;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <ellipse cx="275" cy="70" rx="250" ry="55" fill="url(#grad1)" />
-  <text fill="#ffffff" font-size="45" font-family="Verdana"
-  x="35" y="84">சுனில் ராஜா மகாலிங்கம்</text>
-Sorry, your browser does not support inline SVG.
-</svg>
+
+<h2></h2>
+<p></p>
+<p></p>
+
+<header>
+  <h2>Sunil Weds Genica</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="https://goo.gl/maps/BnAXPFp5Pex">Location</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.17991388361!2d77.39367395088419!3d8.184623794080412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f0b98bc02f4d%3A0xf6b8f583ecace4e5!2sPeruvilai+Water+Tank!5e0!3m2!1sen!2sin!4v1536433146312" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</footer>
+
 </body>
 </html>
